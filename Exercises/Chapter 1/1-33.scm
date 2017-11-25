@@ -1,13 +1,13 @@
 ;;; SICP Exercise 1.33 by Yuzhe Wu, 24 Nov 2017
 
-;;; Write an even more general version of accumulate, called 
-;;; filtered-accumulate, that combine only those terms derived from
-;;; values in the range that satisfy a specified condition. Show how to
-;;; express the following using filtered-accumulate:
+;;; Write an even more general version of accumulate, called filtered-
+;;; accumulate, that combine only those terms derived from values in the
+;;; range that satisfy a specified condition. Show how to express the
+;;; following using filtered-accumulate:
 ;;;
 ;;; a. the sum of squares of the prime numbers in the interval a to b.
 ;;;
-;;; b. the product of all the positive integers less than n that are 
+;;; b. the product of all the positive integers less than n that are
 ;;; relatively prime to n.
 
 ;; implement filtered-accumulate
@@ -38,7 +38,7 @@
 ;; square
 (define (square x) (* x x))
 
-;; primality test 
+;; primality test
 (define (smallest-divisor n)
   (find-divisor n 2))
 
