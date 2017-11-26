@@ -6,3 +6,5 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-st
 
 Exercises are from the textbook "Structure and Interpretation of Computer Programs" by Gerald Jay Sussman and Hal Abelson. An online version could be found at:
 https://mitpress.mit.edu/sicp
+
+Moriturus te saluto.
