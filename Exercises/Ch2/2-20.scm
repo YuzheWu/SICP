@@ -39,7 +39,7 @@
 	    (iter result (cdr remainder)))))
   (iter (list head) integers))
 
-;; helper function that determins if two integers are of the same parity
+;; helper function that determines if two integers are of the same parity
 (define (is-same-parity? a b)
   (even? (- a b)))
 
